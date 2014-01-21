@@ -9,4 +9,4 @@ class ChatTest(unittest.TestCase):
     def test_miaule(self):
         self.chat.miaule()
 
-        self.assertEquals(70, self.chat.energie)
+        self.assertEquals(90, self.chat.energie)
